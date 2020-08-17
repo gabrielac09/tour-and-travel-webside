@@ -10,7 +10,14 @@ body {
 .header {
     position: relative;
     width:1306px;
-    height:786px;
+    height:60px;
+    left:189px;
+    top:35px;
+}
+.section01{
+    position: relative;
+    width:1306px;
+    height:726px;
     left:189px;
     top:35px;
 }
