@@ -769,10 +769,76 @@ body {
     width: 79px;
     height: 60px;
 }
-{
-Descargar las cuatro imagenes y hacer
-trending-stories(1-4)
-image-trending
-trending-text
-trending-parrafo
-read-more}
+
+.trending-stories1 {
+    position: absolute;
+    width: 261px;
+    height: 446px;
+    top: 163px;
+    left: 0px;
+}
+.trending-stories2 {
+    position: absolute;
+    width: 261px;
+    height: 446px;
+    top: 163px;
+    left: 288px;
+}
+.trending-stories3 {
+    position: absolute;
+    width: 261px;
+    height: 446px;
+    top: 163px;
+    left: 576px;
+}
+.trending-stories4 {
+    position: absolute;
+    width: 261px;
+    height: 446px;
+    top: 163px;
+    left: 864px;
+}
+.image-trending {
+    position: absolute;
+    width: 261px;
+    height: 231px;
+}
+.trending-text {
+    position: absolute;
+    top: 244px;
+    left: 0px;
+    width: 242px;
+    height: 60px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 30px;
+}
+.trending-parrafo {
+    position: absolute;
+    top: 317px;
+    left: 0px;
+    width: 261px;
+    height: 78px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    color: #7d7987;
+}
+.read-more-anchor {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 261px;
+    height: 28px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FB8F1D;
+    text-decoration: none;
+}
