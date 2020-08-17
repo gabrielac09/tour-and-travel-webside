@@ -940,3 +940,86 @@ body {
     top: 396px;
     background-color: #c4c4c4;
 }
+.social-media {
+    position: absolute;
+    bottom: 31px;
+    width: 248px;
+    height: 23px;
+    left: 684px;
+}
+.social-img1{
+    position: absolute;
+    width: 25px;
+    height: 22px;
+    left: 0px;
+}
+.social-img2{
+    position: absolute;
+    width: 10px;
+    height: 22px;
+    left: 60px;
+    background-color: tomato;
+}
+.social-img3{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 105px;
+}
+.border-img3{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0px;
+    right: 0px;
+    border:2px solid #000000;
+    border-radius: 5px;
+}
+.radio-img3{
+    position: absolute;
+    width: 7.36px;
+    height: 7.36px;
+    top: 5.35px;
+    right: 5.35px;
+    border:2px solid #000000;
+    border-radius: 100%;
+}
+.punto-img3{
+    position: absolute;
+    width: 2.85px;
+    height: 2.85px;
+    top: 3.68px;
+    right: 3.68px;
+    background-color: #000000;
+    border-radius: 100%;
+}
+.social-img4{
+    position: absolute;
+    width: 23px;
+    height: 22px;
+    left: 162px;
+}
+.social-img5{
+    position: absolute;
+    width: 28px;
+    height: 22px;
+    left: 220px;
+}
+
+25
+
+35
+
+10
+
+35
+
+22
+
+35
+
+23
+
+35
+
+28
