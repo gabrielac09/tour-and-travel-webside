@@ -22,10 +22,9 @@ body {
     top:35px;
 }
 .logo {
+    display: inline-block;
     width: 41px;
     height: 41px;
-    left:2px;
-    top: 10px;
 }
 .ellipse-7{
     position: absolute;
@@ -38,7 +37,6 @@ body {
     border-radius: 50%;
 }
 .ellipse-11 {
-    position: absolute;
     width: 41px;
     height: 41px;
     border-radius: 50%;
