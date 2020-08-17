@@ -812,7 +812,7 @@ body {
     font-family: Inter;
     font-style: normal;
     font-weight: bold;
-    font-size: 19px;
+    font-size: 18px;
     line-height: 30px;
 }
 .trending-parrafo {
@@ -841,4 +841,102 @@ body {
     line-height: 28px;
     color: #FB8F1D;
     text-decoration: none;
+}
+.footer {
+    position: relative;
+    width: 1600px;
+    height: 482px;
+    top: 1555px;
+}
+.logo-footer {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    left:191px;
+    top: 78px;
+}
+.footer-parrafo{
+    position: absolute;
+    width: 321px;
+    height: 84px;
+    top: 148px;
+    left: 190px;
+    font-family: Muli, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 17px;
+    line-height: 28px;
+    color: #848484;
+
+}
+.footer-text{
+    position: absolute;
+    width: 391px;
+    height: 28px;
+    top: 287px;
+    left: 190px;
+    font-family: Muli, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 17px;
+    line-height: 28px;
+    color: #848484;
+
+}
+.footer-seccion1 {
+    position: absolute;
+    width: 170px;
+    height: 249px;
+    top: 70px;
+    right: 744px;
+}
+.footer-seccion2 {
+    position: absolute;
+    width: 170px;
+    height: 249px;
+    top: 70px;
+    right: 457px;
+}
+.footer-seccion3 {
+    position: absolute;
+    width: 170px;
+    height: 249px;
+    top: 70px;
+    right:170px;
+}
+.footer-titulo {
+    position: absolute;
+    width: 115px;
+    height: 60px;
+    top: 0px;
+    left: 0px;
+    font-family: Muli, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 60px;
+    color: #000000;
+    text-decoration: none;
+}
+.footer-opciones {
+    position: absolute;
+    width: 170px;
+    height: 190px;
+    top: 60px;
+    left: 0px;
+    font-family: Muli, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 38px;
+    color: #848484;
+    text-decoration: none;
+}
+.linea-footer {
+    position: absolute;
+    width: 1245px;
+    height: 0.6px;
+    left: 190px;
+    top: 396px;
+    background-color: #c4c4c4;
 }
