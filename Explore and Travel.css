@@ -1041,6 +1041,51 @@ body {
     height: 22px;
     left: 162px;
 }
+.vertical-i-img4 {
+    position: absolute;
+    width: 4.94px;
+    height: 14.85px;
+    bottom: 0px;
+    left: 0.28px;
+    background-color: #000000;
+}
+.punto-img4{
+    position: absolute;
+    width: 5.5px;
+    height: 5.1px;
+    top: 0px;
+    left: 0px;
+    background-color: #000000;
+    border-radius: 2.7px;
+}
+.vertical-n-img4 {
+    position: absolute;
+    width: 4.94px;
+    height: 14.85px;
+    bottom: 0px;
+    left: 7.95px;
+    background-color: #000000;
+}
+.bloque-negro-img4 {
+    position: absolute;
+    width: 11.09px;
+    height: 15.17px;
+    bottom: 0px;
+    right: 0px;
+    background-color: #000000;
+    border-radius: 5.8px 6px 0px 0px;
+}
+.bloque-blanco-img4 {
+    position: absolute;
+    width: 5.15px;
+    height: 11.3px;
+    bottom: 0px;
+    right: 4.94px;
+    background-color: #ffffff;
+    border-radius: 3px 2.5px 0px 0px;
+}
+
+
 .social-img5{
     position: absolute;
     width: 28px;
