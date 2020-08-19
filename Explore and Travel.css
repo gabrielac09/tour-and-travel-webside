@@ -211,11 +211,10 @@ body {
   height: 60px;
 }
 .home {
-  position: absolute;
+  display: inline-block;
   width: 46px;
   height: 19px;
-  top: 21px;
-  left: 0px;
+  padding: 21px 30px 0px 0px;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -224,11 +223,10 @@ body {
   text-decoration: none;
 }
 .destinations {
-  position: absolute;
+  display: inline-block;
   width: 95px;
   height: 19px;
-  top: 21px;
-  left: 81px;
+  padding: 21px 30px 0px 0px;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -237,11 +235,10 @@ body {
   text-decoration: none;
 }
 .about {
-  position: absolute;
+  display: inline-block;
   width: 46px;
   height: 19px;
-  top: 21px;
-  left: 210px;
+  padding: 21px 30px 0px 0px;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -250,11 +247,10 @@ body {
   text-decoration: none;
 }
 .partner {
-  position: absolute;
+  display: inline-block;
   width: 57px;
   height: 19px;
-  top: 21px;
-  left: 290px;
+  padding: 21px 30px 0px 0px;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -267,6 +263,7 @@ body {
   width: 132px;
   height: 60px;
   left: 381px;
+  top: 0px;
 }
 .rectangle35 {
   position: absolute;
@@ -287,6 +284,7 @@ body {
   width: 132px;
   height: 60px;
   right: 0px;
+  top: 0px;
 }
 .rectangle34 {
   position: absolute;
