@@ -595,34 +595,38 @@ body {
   display: none;
 }
 .imput-estrellas1 {
-  position: absolute;
+  /* position: absolute; */
   width: 25px;
   height: 24px;
-  left: 0px;
+  /* left: 0px; */
 }
 .imput-estrellas2 {
-  position: absolute;
+  /* position: absolute; */
   width: 25px;
   height: 24px;
-  left: 41px;
+  /* left: 41px; */
+}
+.input-estrellas {
+  width: 25px;
+  height: 24px;
 }
 .imput-estrellas3 {
-  position: absolute;
+  /* position: absolute; */
   width: 25px;
   height: 24px;
-  left: 82px;
+  /* left: 82px; */
 }
 .imput-estrellas4 {
-  position: absolute;
+  /* position: absolute; */
   width: 25px;
   height: 24px;
-  left: 123px;
+  /* left: 123px; */
 }
 .imput-estrellas5 {
-  position: absolute;
+  /* position: absolute; */
   width: 25px;
   height: 24px;
-  left: 164px;
+  /* left: 164px; */
 }
 .estrella {
   background-color: white;
@@ -630,6 +634,16 @@ body {
 .estrella:hover {
   background-color: #fcd362c9;
 }
+/* .estrella:hover,
+.estrella:hover ~ .estrella {
+  background-color: red;
+} */
+
+.input-estrellas:hover,
+.input-estrellas:hover ~ .input-estrellas {
+  background-color: red;
+}
+
 .testimonials-text {
   position: relative;
   width: 450px;
