@@ -10,69 +10,63 @@
     <link rel="stylesheet" type="text/css" href="Explore and Travel.css" />
   </head>
   <body>
-    <!--cometnario de prueba-->
+    <div class="header">
+      <div class="logo">
+        <div class="ellipseOuter">
+          <div class="ellipseInner"></div>
+        </div>
+      </div>
+      <div class="top-nav">
+        <div class="navLinksContainer">
+          <a href="#" class="navLink">Home</a>
+          <a href="#" class="navLink">Destinations</a>
+          <a href="#" class="navLink">About</a>
+          <a href="#" class="navLink">Partner</a>
+        </div>
+        <div class="login-btn">
+          <button class="button inactiveButton">Login</button>
+        </div>
+        <div class="register-btn">
+          <button class="button activeButton">Register</button>
+        </div>
+      </div>
+    </div>
     <div class="thousand-sunny">
-      <div class="header">
-        <div class="logo">
-          <div class="ellipse-11"></div>
-          <div class="ellipse-7"></div>
-        </div>
-        <div class="top-nav">
-          <a href="xxx" class="home">Home</a>
-          <a href="xxx" class="destinations">Destinations</a>
-          <a href="xxx" class="about">About</a>
-          <a href="xxx" class="partner">Partner</a>
-          <div class="login-btn">
-            <button class="rectangle35">Login</button>
-          </div>
-          <div class="register-btn">
-            <button class="rectangle34">Register</button>
-          </div>
-        </div>
-      </div>
       <div class="section01">
-        <div class="titulo">Explore and Travel</div>
-        <div class="holiday-finder">
-          <div class="holiday-finder2">
-            <div class="holiday-text">Holiday finger</div>
-            <div class="rectangle33">
-              <div class="date">Date</div>
-              <div class="vector">
-                <img src="Vector.png" />
+        <div class="holidayFinderWrapper">
+          <div class="holidayFinderContainer">
+            <div class="titulo">Explore and Travel</div>
+            <div class="holidayInputsContainer">
+              <div class="holiday-text">Holiday finder</div>
+              <div class="separator"></div>
+              <!-- Completar con los demas inputs y las propiedades y atributos correspondientes de cada uno -->
+              <select class="selectInput" name="location">
+                <option value="value1" selected>Location 1</option>
+                <option value="value2">Location 2</option>
+                <option value="value3">Location 3</option>
+              </select>
+              <select class="selectInput" name="activity">
+                <option value="value1">Activity 1</option>
+                <option value="value2" selected>Activity 2</option>
+                <option value="value3">Activity 3</option>
+              </select>
+              <input class="selectInput" type="date" />
+              <div class="exploreButton">
+                <!-- reutilice las clases que estaban en los botones de la navegacion: -->
+                <button class="button activeButton">Explore</button>
               </div>
             </div>
-            <div class="rectangle32">
-              <div class="grade">Grade</div>
-              <div class="vector">
-                <img src="Vector.png" />
-              </div>
-            </div>
-            <div class="rectangle31">
-              <div class="activity">Activity</div>
-              <div class="vector">
-                <img src="Vector.png" />
-              </div>
-            </div>
-            <div class="rectangle30">
-              <div class="location">Location</div>
-              <div class="vector">
-                <img src="Vector.png" />
-              </div>
-            </div>
-            <div class="rectangle29"></div>
           </div>
-          <div class="btn">
-            <button class="rectangle1">Explore</button>
+
+          <!-- <div class="element1">
+            <img src="element.png" />
+          </div> -->
+          <div class="imageContainer">
+            <img class="image" src="thousand-01 1.jpg" />
           </div>
-        </div>
-        <div class="element1">
-          <img src="element.png" />
-        </div>
-        <div class="thousand-01">
-          <img src="thousand-01 1.jpg" />
         </div>
       </div>
-      <div class="section02">
+      <!-- <div class="section02">
         <div class="element2">
           <img src="element1.png" />
         </div>
@@ -90,8 +84,8 @@
             <button class="rectangle36">Learn more</button>
           </div>
         </div>
-      </div>
-      <div class="section03">
+      </div> -->
+      <!-- <div class="section03">
         <div class="featured-destinations">Featured destinations</div>
         <div class="element3">
           <img src="element1.png" />
@@ -128,8 +122,8 @@
             <div class="country-monument">Montenegro</div>
           </div>
         </div>
-      </div>
-      <div class="section04">
+      </div> -->
+      <!-- <div class="section04">
         <div class="element4-1">
           <img src="element1.png" />
         </div>
@@ -150,8 +144,8 @@
             <button class="rectangle36">Download</button>
           </div>
         </div>
-      </div>
-      <div class="section05">
+      </div> -->
+      <!-- <div class="section05">
         <div class="testimonials">Testimonials</div>
         <div class="testimonials-box">
           <form class="bloque-estrella5">
@@ -231,8 +225,8 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="section06">
+      </div> -->
+      <!-- <div class="section06">
         <div class="trending-stories">Trending stories</div>
         <div class="element6">
           <img src="element1.png" />
@@ -285,18 +279,21 @@
           </div>
           <a class="read-more-anchor" href="xxx">Read more</a>
         </div>
-      </div>
+      </div> -->
       <div class="footer">
-        <div class="logo-footer">
-          <div class="ellipse-11"></div>
-          <div class="ellipse-7"></div>
-        </div>
         <div class="footer-parrafo">
-          Plan and book your perfect trip with expert advice, travel tips
-          destination information from us
+          <div class="logo">
+            <div class="ellipseOuter">
+              <div class="ellipseInner"></div>
+            </div>
+          </div>
+          <p>
+            Plan and book your perfect trip with expert advice, travel tips
+            destination information from us
+          </p>
+          <p class="footer-text">©2020 Thousand Sunny. All rights reserved</p>
         </div>
-        <div class="footer-text">©2020 Thousand Sunny. All rights reserved</div>
-        <div class="footer-seccion1">
+        <div class="footer-seccion">
           <a class="footer-titulo" href="xxx">Destinations</a>
           <div class="footer-opciones">
             <a>Africa</a><br />
@@ -306,7 +303,7 @@
             <a>America</a><br />
           </div>
         </div>
-        <div class="footer-seccion2">
+        <div class="footer-seccion">
           <a class="footer-titulo" href="xxx">Shop</a>
           <div class="footer-opciones">
             <a>Destination Guides</a><br />
@@ -316,7 +313,7 @@
             <a>FAQs</a><br />
           </div>
         </div>
-        <div class="footer-seccion3">
+        <div class="footer-seccion">
           <a class="footer-titulo" href="xxx">Interests</a>
           <div class="footer-opciones">
             <a>Adventure Travel</a><br />
@@ -328,27 +325,27 @@
         </div>
         <div class="linea-footer"></div>
         <div class="social-media">
-          <img class="social-img1" src="imagen7.png" />
-          <div class="social-img2">
+          <img class="social social-img1" src="imagen7.png" />
+          <div class="social social-img2">
             <div class="vertical-img2"></div>
             <div class="horizontal-img2"></div>
             <div class="bloque-negro-img2"></div>
             <div class="bloque-blanco-img2"></div>
             <div class="separar-horizontal-img2"></div>
           </div>
-          <div class="social-img3">
+          <div class="social social-img3">
             <div class="border-img3"></div>
             <div class="radio-img3"></div>
             <div class="punto-img3"></div>
           </div>
-          <div class="social-img4">
+          <div class="social social-img4">
             <div class="vertical-i-img4"></div>
             <div class="punto-img4"></div>
             <div class="vertical-n-img4"></div>
             <div class="bloque-negro-img4"></div>
             <div class="bloque-blanco-img4"></div>
           </div>
-          <img class="social-img5" src="imagen11.png" />
+          <img class="social social-img5" src="imagen11.png" />
         </div>
       </div>
     </div>
