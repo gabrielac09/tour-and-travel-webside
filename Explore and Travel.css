@@ -641,7 +641,7 @@ body {
 
 .input-estrellas:hover,
 .input-estrellas:hover ~ .input-estrellas {
-  background-color: red;
+  background-color: #fcd362c9;
 }
 
 .testimonials-text {
