@@ -7,10 +7,12 @@ body {
 /**************** HEADER NAVIGATION ********************/
 /****************                  ********************/
 .header {
-  margin: 45px 190px 72px 226px;
+  margin: 45px 190px 72px 189px;
 }
 .top-nav {
   float: right;
+  display: flex;  
+  align-items: center;
 }
 .logo {
   display: inline-block;
@@ -35,7 +37,7 @@ body {
   border-radius: 50%;
 }
 .navLinksContainer {
-  display: inline-block;
+  display: flex;
 }
 .navLink {
   margin-right: 35px;
@@ -47,7 +49,8 @@ body {
   text-decoration: none;
 }
 .login-btn {
-  display: inline-block;
+  display: flex;  
+  align-items: center;
   width: 132px;
   height: 60px;
   margin: 0px 18px 0px 0px;
@@ -67,7 +70,8 @@ body {
   box-sizing: border-box;
 }
 .register-btn {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   width: 132px;
   height: 60px;
 }
@@ -82,11 +86,13 @@ body {
 /**************** SECTION 1        ********************/
 /****************                  ********************/
 .thousand-sunny {
-  margin: auto;
+  margin: 0px;
   background-color: #ffffff;
 }
 .section01 {
   margin: 0px 105px 0px 189px;
+  display: flex;
+  flex-direction: row-reverse;
 }
 .imageContainer {
   float: right;
@@ -95,8 +101,10 @@ body {
 }
 .holidayFinderWrapper {
   position: relative;
+  display: flex;
+  flex-direction: column;
   width: 618px;
-  height: 700px;
+  height: 654px;
 }
 .titulo {
   width: 470px;
@@ -110,7 +118,6 @@ body {
 .holidayFinderContainer {
   width: 470px;
 }
-
 .holiday-text {
   font-family: Inter;
   font-style: normal;
@@ -174,37 +181,30 @@ body {
 /**************** SECTION 2        ********************/
 /****************                  ********************/
 .section02 {
-  /* position: relative; */
-  width: 1242px;
-  height: 550px;
-  /* left: 141px; */
-  /* top: 270px; */
+  display: flex;
+  flex-direction: row;
+  margin: 286px 217px 0px 141px;
 }
 .element2 {
-  /* position: absolute; */
+  margin: 0px 56px 527px 26px;
+  align-self: flex-start;
   width: 20.5px;
   height: 20px;
-  /* left: 685px; */
 }
 .thousand-02 {
-  /* position: absolute; */
+  align-self: flex-end;
   width: 659px;
   height: 534px;
-  /* top: 16px; */
-  /* left: 0px; */
 }
 .a-new-way {
-  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  align-self: center;
   width: 481px;
-  height: 333px;
-  /* left: 761px; */
-  /* top: 112px; */
 }
 .a-new-way-tittle {
-  /* position: absolute; */
   width: 481px;
-  height: 100px;
-  /* top: 0px; */
+  margin-bottom: 20px;
   font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
@@ -212,11 +212,8 @@ body {
   color: #000000;
 }
 .a-new-way-text {
-  /* position: absolute; */
-  /* top: 120px; */
-  /* right: 31px; */
   width: 450px;
-  height: 120px;
+  margin-bottom: 33px;
   font-family: Muli, sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -225,17 +222,13 @@ body {
   color: #7d7987;
 }
 .learn-more-btn {
-  /* position: absolute; */
-  /* left: 0px; */
-  bottom: 0px;
-  width: 164px;
   height: 60px;
 }
 .rectangle36 {
-  /* position: absolute; */
   width: 164px;
   height: 48px;
-  /* top: 6px; */
+  margin: 6px 0px; 
+  justify-items: center;
   background-color: #fb8f1d;
   border-color: #ffffff;
   border-radius: 8px;
@@ -246,41 +239,33 @@ body {
   color: #ffffff;
 }
 .section03 {
-  /* position: relative; */
-  /* top: 567px; */
-  /* left: 121px; */
-  width: 1239px;
-  height: 443px;
+margin: 292px 240px 0px 121px;
+display: flex;
+flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.baseline {
+  align-items: baseline;
+  justify-content: space-between;
 }
 .featured-destinations {
-  /* position: absolute; */
-  width: 481px;
-  height: 50px;
-  /* left: 119px; */
+  margin: 0px 0px 56px 119px;
   font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
   color: #000000;
   font-size: 36px;
-}
-.element3 {
-  /* position: absolute; */
-  width: 20.5px;
-  height: 20px;
-  /* top: 299px; */
-  /* left: 0px; */
+  line-height: 50px;
 }
 .view-all {
-  /* position: absolute; */
-  /* top: 0px; */
-  /* right: 0px; */
-  width: 79px;
-  height: 60px;
+  display: flex;
+  flex-direction: row;
 }
 .view-all-anchor {
-  /* position: absolute; */
-  /* top: 21.5px; */
-  width: 64px;
+  margin: 0px 10px;
   height: 17px;
   font-family: Inter;
   font-style: normal;
@@ -290,128 +275,83 @@ body {
   text-decoration: none;
 }
 .vector1 {
-  /* position: absolute; */
-  width: 8px;
-  height: 13px;
-  /* top: 24.5px; */
-  /* right: 0px; */
+  margin: 0px;
 }
-.destination1 {
-  /* position: absolute; */
+.element3 {
+  margin: 193px 96px 0px 0px;
+}
+.destination{
+  width: 1448px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.destination-1 {
+  position: relative;
+  width: 261px;
+}
+.destination-2 {
   width: 261px;
   height: 337px;
-  /* top: 95px; */
-  /* left: 119px; */
-}
-.destination2 {
-  /* position: absolute; */
-  width: 261px;
-  height: 337px;
-  /* top: 95px; */
-  /* left: 405px; */
-}
-.destination3 {
-  /* position: absolute; */
-  width: 261px;
-  height: 337px;
-  /* top: 95px; */
-  /* left: 691px; */
-}
-.destination4 {
-  /* position: absolute; */
-  width: 261px;
-  height: 337px;
-  /* top: 95px; */
-  /* left: 977px; */
-}
-.destination {
-  /* position: absolute; */
-  width: 261px;
-  height: 337px;
-  /* top: 0px; */
-  /* left: 0px; */
   background-color: #c4c4c4;
   border-radius: 8px;
   border-color: black;
 }
 .rectangle41 {
-  /* position: absolute; */
+  position: absolute;
+  bottom: 0px;
+  padding: 11px 20px 0px 0px;
   width: 120px;
-  height: 56px;
-  /* top: 281px; */
-  /* left: 0px; */
   background-color: white;
   border-radius: 0px 8px 0px 8px;
 }
 .name-monument {
-  /* position: absolute; */
-  width: 100px;
-  height: 17px;
-  /* top: 11px; */
-  /* left: 0px; */
   font-family: Inter;
   font-style: normal;
   font-weight: 600;
   font-size: 17px;
+  line-height: 22px;
   color: #042521;
 }
 .country-monument {
-  /* position: absolute; */
-  width: 100px;
-  height: 17px;
-  bottom: 2px;
-  /* left: 0px; */
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
+  line-height: 26px;
   color: #80908e;
 }
 .section04 {
-  /* position: relative; */
-  /* top: 788px; */
-  /* left: 240px; */
-  width: 1206px;
-  height: 542px;
+  margin: 231px 154px 0px 240px;
+  display: flex;
+  flex-direction: row-reverse;
 }
 .element4-1 {
-  /* position: absolute; */
-  width: 20.5px;
-  height: 20px;
-  /* top: 37px; */
-  /* right: 0px; */
+  align-self: flex-start;
+  margin: 37px 0px 0px 58px;
 }
 .thousand-03 {
-  /* position: absolute; */
-  width: 599px;
   height: 542px;
-  /* top: 0px; */
-  /* right: 77px; */
 }
 .guides-by {
-  /* position: absolute; */
-  width: 481px;
-  height: 303px;
-  /* top: 152px; */
-  /* left: 0px; */
+  margin: 0px 90px 0px 0px ;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 440px;
+  text-align: left;
 }
 .guides-by-tittle {
-  /* position: absolute; */
-  width: 381px;
-  height: 100px;
-  /* top: 0px; */
+  width: 390px;
   font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
+  line-height: 50px;
   color: #000000;
 }
 .guides-by-text {
-  /* position: absolute; */
-  /* top: 120px; */
-  /* right: 31px; */
-  width: 450px;
-  height: 90px;
+  margin: 20px 5px 33px 0px;
   font-family: Muli, sans-serif;
   font-style: normal;
   font-weight: lighter;
@@ -420,11 +360,7 @@ body {
   color: #7d7987;
 }
 .element4-2 {
-  /* position: absolute; */
-  width: 20.5px;
-  height: 20px;
-  bottom: 10px;
-  /* right: 40px; */
+  margin: 9px 0px;
 }
 .section05 {
   /* position: relative; */
