@@ -11,7 +11,7 @@ body {
 }
 .top-nav {
   float: right;
-  display: flex;  
+  display: flex;
   align-items: center;
 }
 .logo {
@@ -49,7 +49,7 @@ body {
   text-decoration: none;
 }
 .login-btn {
-  display: flex;  
+  display: flex;
   align-items: center;
   width: 132px;
   height: 60px;
@@ -143,7 +143,7 @@ body {
   width: 220px;
   height: 52px;
   background: white;
-  border: .8px solid #afb0b9;
+  border: 0.8px solid #afb0b9;
   box-sizing: border-box;
   border-radius: 6px;
   margin: 0px 26px 31px 0px;
@@ -153,7 +153,7 @@ body {
   font-size: 15px;
   line-height: 32px;
   align-items: center;
-  padding: 0px 31px 0px 31px
+  padding: 0px 31px 0px 31px;
 }
 .SelectNone {
   margin: 0px 0px 31px 0px;
@@ -227,7 +227,7 @@ body {
 .rectangle36 {
   width: 164px;
   height: 48px;
-  margin: 6px 0px; 
+  margin: 6px 0px;
   justify-items: center;
   background-color: #fb8f1d;
   border-color: #ffffff;
@@ -239,20 +239,21 @@ body {
   color: #ffffff;
 }
 .section03 {
-margin: 292px 240px 0px 121px;
-display: flex;
-flex-direction: column;
+  margin: 292px 240px 0px 121px;
+  display: flex;
+  flex-direction: column;
 }
 .flex-row {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .baseline {
   align-items: baseline;
   justify-content: space-between;
 }
 .featured-destinations {
-  margin: 0px 0px 56px 119px;
+  /* margin: 0px 0px 56px 119px; */
   font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
@@ -280,8 +281,8 @@ flex-direction: column;
 .element3 {
   margin: 193px 96px 0px 0px;
 }
-.destination{
-  width: 1448px;
+.destination {
+  /* width: 1448px; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -289,6 +290,7 @@ flex-direction: column;
 .destination-1 {
   position: relative;
   width: 261px;
+  padding-right: 25px;
 }
 .destination-2 {
   width: 261px;
@@ -334,7 +336,7 @@ flex-direction: column;
   height: 542px;
 }
 .guides-by {
-  margin: 0px 90px 0px 0px ;
+  margin: 0px 90px 0px 0px;
   display: flex;
   flex-direction: column;
   align-self: center;
@@ -367,11 +369,11 @@ flex-direction: column;
   display: flex;
   flex-direction: row;
 }
-.flex-column{
+.flex-column {
   display: flex;
   flex-direction: column;
 }
-.flex-column-05{
+.flex-column-05 {
   align-items: flex-start;
 }
 .testimonials {
@@ -448,16 +450,16 @@ flex-direction: column;
 }
 .photo {
   position: relative;
-  background-image: url(image\ 6.png);
+  background-image: url(image\6png);
   border-radius: 14px;
-  margin: 110px 0px 0px 0px; 
+  margin: 110px 0px 0px 0px;
   width: 384px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
 }
-.blanco{
+.blanco {
   opacity: 0px;
 }
 .element5 {
