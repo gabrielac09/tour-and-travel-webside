@@ -282,7 +282,7 @@ body {
   margin: 193px 96px 0px 0px;
 }
 .destination {
-  /* width: 1448px; */
+  margin-top: 56px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -291,6 +291,9 @@ body {
   position: relative;
   width: 261px;
   padding-right: 25px;
+}
+.padding-none{
+  padding: 0px;
 }
 .destination-2 {
   width: 261px;
