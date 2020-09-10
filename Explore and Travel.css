@@ -587,13 +587,13 @@ body {
   justify-content: space-between;
   margin-top: 271px;
   background: #f9f9fb;
-  padding: 70px 190px;
+  padding: 70px 190px 30px 190px;
 }
 .footer-parrafo {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 32%;
+  width: 29%;
   font-family: Muli, sans-serif;
   font-style: normal;
   font-weight: lighter;
@@ -602,6 +602,7 @@ body {
   color: #848484;
 }
 .footer-text {
+  margin-top: 26px;
   font-family: Muli, sans-serif;
   font-style: normal;
   font-weight: lighter;
@@ -609,8 +610,12 @@ body {
   line-height: 28px;
   color: #848484;
 }
+.footer-text-2{
+  margin: 42px 0px 0px 0px;
+  line-height: 38px;
+}
 .footer-seccion {
-  width: 13%;
+  width: 14%;
 }
 .footer-titulo {
   font-family: Muli, sans-serif;
