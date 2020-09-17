@@ -45,8 +45,14 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  color: #202336;
+  color: #B8BECD;
   text-decoration: none;
+}
+.navLink:hover{
+  color: #202336;
+}
+#anchor-home{
+  color: #202336;
 }
 .login-btn {
   display: flex;
@@ -104,16 +110,16 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
+  align-self: center;
   width: 618px;
-  height: 654px;
 }
 .titulo {
   width: 470px;
-  padding-top: 133px;
   font-family: playfair-display;
   font-style: normal;
   font-weight: bold;
   font-size: 64px;
+  line-height: 80px;
   padding-bottom: 74px;
 }
 .holidayFinderContainer {
@@ -171,7 +177,7 @@ body {
 }
 .element1 {
   position: absolute;
-  top: 123px;
+  top: 28px;
   left: 468px;
   width: 20.05px;
   height: 20px;
